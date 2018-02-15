@@ -24,8 +24,6 @@ function OtrChoz( options ) {
   this.start();
 }
 
-function start(){
+OtrChoz.prototype.start = function() {
   console.log('Your life is better now !');
-}
-
-
+};
